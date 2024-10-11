@@ -1,1 +1,52 @@
+/* products styling */
+.fakestore-products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
+.fakestore-product {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: calc(33% - 20px);
+    box-sizing: border-box;
+}
+
+.fakestore-product img {
+    width: 100%;
+    height: auto;
+}
+
+.fakestore-product h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.fakestore-product p {
+    margin: 5px 0;
+}
+
+
+/* Add some basic pagination styles */
+        .fakestore-pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .fakestore-pagination a {
+            display: inline-block;
+            padding: 10px 15px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            text-decoration: none;
+            color: #000;
+        }
+
+        .fakestore-pagination a.current {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .fakestore-pagination a:hover {
+            background-color: #ddd;
+        }
